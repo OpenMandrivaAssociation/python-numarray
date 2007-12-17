@@ -9,7 +9,6 @@ Group:          Development/Python
 License:        BSD-like
 URL:            http://www.stsci.edu/resources/software_hardware/numarray/
 Source0:        http://dl.sourceforge.net/sourceforge/numpy/%{module}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  python-devel
 
