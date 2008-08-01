@@ -2,7 +2,7 @@
 
 Name:           python-%{module}
 Version:        1.5.2
-Release:        %mkrel 4
+Release:        %mkrel 5
 Summary:        Numarray: array processing for numbers, strings, records and objects
 
 Group:          Development/Python
