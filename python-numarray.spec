@@ -2,7 +2,7 @@
 
 Name:           python-%{module}
 Version:        1.5.2
-Release:        %mkrel 6
+Release:        %mkrel 7
 Summary:        Numarray: array processing for numbers, strings, records and objects
 
 Group:          Development/Python
@@ -39,6 +39,7 @@ CFLAGS="$RPM_OPT_FLAGS" %{__python} setup.py build
 
 %install
 rm -rf $RPM_BUILD_ROOT
+PYTHONDONTWRITEBYTECODE= \
 %{__python} setup.py install -O1 --skip-build --root $RPM_BUILD_ROOT --record=INSTALLED_OBJECTS.tmp
 
 # Ghost optimized 
